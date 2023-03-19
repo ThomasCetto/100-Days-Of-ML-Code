@@ -9,12 +9,16 @@
 ```
 serie = pd.Series([1, 2, 3, np.nan, 1, 9])
 
-df = pd.Dataframe({
+df = pd.DataFrame({
     "A": [1,2],
     "B": ["hey", "oo"],
     "C": [4.44, 3.14],
-}, index = ["]
+}, index = ["Row1", "Row2", "Row3"]
 )
+
+df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+df['target'] = iris.target
+
 
 df = pd.read_csv('data.csv')
 df.to_csv("foo.csv")  # writing
@@ -66,4 +70,26 @@ df.apply(lambda x: x.max() - x.min())
 ```
 import matplotlib.pyplot as plt
 df.plot()  # kind = scatter, hist, bar
+```
+
+# Remove
+```
+df = df.drop("age", axis='columns')  # removes the column "age"
+# or
+df = df.drop("age", axis=1)
+
+df = df.drop(3) # removes the 4th row
+
+df = df.dropna(axis=0/1, how='any/all', inplace=True, subset=["column_name"])
+"""
+# 0 if rows, 1 if columns
+# any if you want to remove the row if it has any NA, all if every value is NA
+"""
+```
+
+# Replace
+```
+df = df.fillna(value)
+df["column_name"].fillna(value, inplace=True)
+df[["B","C"]].fillna(value, inplace=True)
 ```
