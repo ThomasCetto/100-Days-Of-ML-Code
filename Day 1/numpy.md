@@ -26,7 +26,8 @@
     - arr.sort()
     - arr.unique()
     - arr.concatenate()
-    - arr.random.rand(size=(...)): random number from 0 to 1
+    - arr.random.rand(size=(1 or more)): random number from 0 to 1
+    - arr.random.randn(size=(1 or more)): random number also negative
     - arr.random.randint(top, size=(...))
 - Universal functions:
     - np.sum(arr)
