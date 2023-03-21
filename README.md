@@ -18,4 +18,5 @@ It contains what I learned so far about machine learning
     - Random forests (regressor and classifier)
 - Day 5:
     - Naive Bayes
-    
+    - Kaggle Competition (Spaceship Titanic)
+    - Handle Strings in preprocessing

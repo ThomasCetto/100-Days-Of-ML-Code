@@ -10,6 +10,11 @@ le = LabelEncoder()
 df['my_column_encoded'] = le.fit_transform(df['my_column'])
 ```
 
+To get back to the original data:
+```
+decoded_data = le.inverse_transform(encoded_data)
+```
+
 ## One-Hot Encoding
 Similar to Label Encoding but if a column contains three categories (red, green, blue), label binarization creates three binary columns, one for each category.
 
