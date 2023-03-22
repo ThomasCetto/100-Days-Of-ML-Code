@@ -20,3 +20,6 @@ It contains what I learned so far about machine learning
     - Naive Bayes
     - Kaggle Competition (Spaceship Titanic)
     - Handle Strings in preprocessing
+- Day 6:
+    - Hyperparameters tuning
+    - StandardScaler preprocessing
