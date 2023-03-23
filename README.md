@@ -18,8 +18,10 @@ It contains what I learned so far about machine learning
     - Random forests (regressor and classifier)
 - Day 5:
     - Naive Bayes
-    - Kaggle Competition (Spaceship Titanic)
+    - Spaceship Titanic (Kaggle Competition)
     - Handle Strings in preprocessing
 - Day 6:
     - Hyperparameters tuning
     - StandardScaler preprocessing
+- Day 7: 
+    - Predict Store Sales (Kaggle Competition)
