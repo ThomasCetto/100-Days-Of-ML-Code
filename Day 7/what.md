@@ -1,0 +1,1 @@
+Kaggle Competition about Predicting Store Sales
