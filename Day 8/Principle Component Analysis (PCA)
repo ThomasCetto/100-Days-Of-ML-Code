@@ -1,0 +1,10 @@
+# Principal Component Analysis (PCA)
+
+It's a tool for dimensionality reduction, and it's often used when we use a lot of features and want to reduce the training time needed.
+
+What it does: it reduces the features, while trying to lose as few informations as possible.
+
+When not to use it: when working with Euclidean distance-based algorithm 
+
+
+[Very well explained HERE](https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d)
