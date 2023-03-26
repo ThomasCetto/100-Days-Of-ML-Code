@@ -25,3 +25,11 @@ It contains what I learned so far about machine learning
     - StandardScaler preprocessing
 - Day 7: 
     - Predict Store Sales (Kaggle Competition)
+- Day 8:
+    - PCA (Principle Component Analysis)
+- Day 9:
+    - Unsupervised learning
+    - K-means clustering
+    - Hierarchical clustering
+    - DBSCAN
+    - Elbow method
