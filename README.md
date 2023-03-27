@@ -33,3 +33,5 @@ It contains what I learned so far about machine learning
     - Hierarchical clustering
     - DBSCAN
     - Elbow method
+- Day 10:
+    - Exploratory Data Analysis
