@@ -17,3 +17,10 @@ It rescales each feature between -1 and 1 by dividing every observation by its m
 
 *Important:* it's very sensitive to outliers because a single outlier can influence the minumum and maximum values and have a big effect on the results.
 
+### Min-max feature scaling
+It's also called normalization, and it rescales the feature to a fixed range of [0,1] by subtracting the minimum value of the feature and then dividing by the range.
+
+![formula](https://miro.medium.com/v2/resize:fit:480/format:webp/1*wJqdWdLdjBJqGbaDRWVZnQ.png)
+
+*Important:* it's very sensitive to outliers because a single outlier can influence the minumum and maximum values and have a big effect on the results.
+
