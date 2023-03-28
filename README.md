@@ -34,4 +34,9 @@ It contains what I learned so far about machine learning
     - DBSCAN
     - Elbow method
 - Day 10:
-    - Exploratory Data Analysis
+    - Exploratory Data Analysis (EDA)
+- Day 11:
+    - Maximum absolute scaling
+    - Min-max features scaling
+    - z-score method
+    - robust scaling
