@@ -8,3 +8,12 @@ To solve this problem we have to normalize the values of both variables, and it 
 - z-score method
 - Robust scaling
 
+
+### Maximum absolute scaling
+
+It rescales each feature between -1 and 1 by dividing every observation by its maximum absolute value.
+
+![formula](https://miro.medium.com/v2/resize:fit:466/format:webp/1*qa_W9JzNscAXpTtc44yhow.png)
+
+*Important:* it's very sensitive to outliers because a single outlier can influence the minumum and maximum values and have a big effect on the results.
+
