@@ -32,3 +32,13 @@ It's also called standardization, and it transforms the data into a distribution
 
 ![distribution raffiguration](https://miro.medium.com/v2/resize:fit:828/format:webp/1*cDUtW2cNIZ7L5XrdOkiucQ.png)
 
+
+### Robust scaling 
+
+Every feature gets scaled by subtracting the median and then dividing by the interquartile range (the difference between the third and the first quartile, that represents 50% of the data).
+
+![formula](https://miro.medium.com/v2/resize:fit:514/format:webp/1*IB6PRhdSwVkOR9AyI_bhyg.png)
+
+where Q1(x) is the first quartile of the attribute x, Q2(x) is the median, and Q3(x) is the third quartile.
+
+It's useful when working with datasets that contain many outliers, because median and interquartile range are very robust to them. 
