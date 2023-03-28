@@ -24,3 +24,11 @@ It's also called normalization, and it rescales the feature to a fixed range of 
 
 *Important:* it's very sensitive to outliers because a single outlier can influence the minumum and maximum values and have a big effect on the results.
 
+
+### Z-score method
+It's also called standardization, and it transforms the data into a distribution with a mean of 0 and a standard deviation of 1. Each value is computed by subtracting the mean of the feature and then dividing by the standard deviation. It doesn't rescale the feature to a fixed range, but 99% of data ranges from -3.00 to 3.00 if the input is normally distributed.
+
+![formula](https://miro.medium.com/v2/resize:fit:346/format:webp/1*Qy9qhRvqU0pOfADth0Njhw.png)
+
+![distribution raffiguration](https://miro.medium.com/v2/resize:fit:828/format:webp/1*cDUtW2cNIZ7L5XrdOkiucQ.png)
+
