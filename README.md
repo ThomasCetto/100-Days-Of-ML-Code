@@ -40,3 +40,5 @@ It contains what I learned so far about machine learning
     - Min-max features scaling
     - z-score method
     - robust scaling
+- Day 12:
+    - Gradient descent
