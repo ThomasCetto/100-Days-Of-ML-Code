@@ -57,6 +57,22 @@ df.iat(row_ind, col_ind)
 df.dropna(how="any")
 df.fillna(value=5)
 df.isna()
+
+# count number of na:
+df.isna().sum()
+```
+
+How to get the name of each column with the corresponding number of na values in that column
+```
+missing_values = df.isna().sum()
+
+for col, num_missing in missing_values.iteritems():
+    print(f"{col}: {num_missing}")
+```
+
+How to get the number of rows that have at least one na
+```
+missing_rows = df.isna().any(axis=1).sum()
 ```
 
 ## Operations

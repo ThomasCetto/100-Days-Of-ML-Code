@@ -42,3 +42,4 @@ It contains what I learned so far about machine learning
     - robust scaling
 - Day 12:
     - Gradient descent
+    - Regularization

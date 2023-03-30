@@ -42,3 +42,24 @@ It uses a β value to change the importance of the two metrics. With β < 1 the 
 
 - Mean squared error
 - R^2 coefficient
+
+
+How to print a pretty confusion matrix:
+```
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+
+# Create a sample confusion matrix
+cm = confusion_matrix(y_true, y_pred)
+
+# Create a heatmap with the confusion matrix
+sns.heatmap(cm, annot=True, cmap='Blues', fmt='g', xticklabels=['class 0', 'class 1'], yticklabels=['class 0', 'class 1'])
+
+# Add labels and title
+plt.xlabel('Predicted label')
+plt.ylabel('True label')
+plt.title('Confusion matrix')
+plt.show()
+
+```
