@@ -45,3 +45,5 @@ It contains what I learned so far about machine learning
     - Regularization
 - Day 13: 
     - Titanic kaggle competition
+- Day 14:
+    - Improved titanic kaggle competition 
