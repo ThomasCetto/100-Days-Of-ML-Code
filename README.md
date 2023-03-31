@@ -43,3 +43,5 @@ It contains what I learned so far about machine learning
 - Day 12:
     - Gradient descent
     - Regularization
+- Day 13: 
+    - Titanic kaggle competition
