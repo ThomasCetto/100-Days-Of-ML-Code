@@ -47,3 +47,6 @@ It contains what I learned so far about machine learning
     - Titanic kaggle competition
 - Day 14:
     - Improved titanic kaggle competition 
+- Day 15:
+    - Starting with deep learning
+    - Neural networks
