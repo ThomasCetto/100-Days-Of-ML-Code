@@ -50,3 +50,6 @@ It contains what I learned so far about machine learning
 - Day 15:
     - Starting with deep learning
     - Neural networks
+- Day 16:
+    - Types of Neural Networks
+    - Neural Networks Architecture
