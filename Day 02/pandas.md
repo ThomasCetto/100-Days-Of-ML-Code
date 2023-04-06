@@ -85,7 +85,11 @@ df.apply(lambda x: x.max() - x.min())
 ## Plotting
 ```
 import matplotlib.pyplot as plt
-df.plot(x="col", y="col", kind="scatter")  # kind = hist, bar...
+df.plot(x="col", y="col",
+    kind="scatter", 
+    c="label_col",
+    cmap="coolwarm"
+)  # kind = hist, bar...
 ```
 
 # Remove
