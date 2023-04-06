@@ -53,6 +53,10 @@ It contains what I learned so far about machine learning
 - Day 16:
     - Types of Neural Networks
     - Neural Networks Architecture
-- Day 17: 
+-Day 17: 
+    - Backpropagation
+- Day 18: 
     - Tensors
-    - First Neural Network with PyTorch
+    - First Regression Neural Network with PyTorch
+- Day 19:
+    - First Classification Neural Network with PyTorch
