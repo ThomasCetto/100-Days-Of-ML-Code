@@ -60,3 +60,6 @@ It contains what I learned so far about machine learning
     - First Regression Neural Network with PyTorch
 - Day 19:
     - First Classification Neural Network with PyTorch
+- Day 20:
+    - Computer vision with "standard" NN
+    - CNNs

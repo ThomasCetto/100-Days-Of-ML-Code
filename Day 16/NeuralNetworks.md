@@ -26,6 +26,9 @@ It's a type on NN where the flow of information moves in only one direction, fro
 There are no loops or cycles, so the output of one layer is not fed back into the same layer or any previous layer. It is the simpler type of NN.
 
 ### Convolutional Neural Networks (CNN)
+[Explaination Here](https://poloclub.github.io/cnn-explainer/)
+
+
 It processes images by applying a series of convolutional filters to it. Those filters are small matrices that slide over the image and perform a computation at each position. The computation involves multiplying the values in the filter with the values in the corresponding part of the image and summing the results to produce a single output value. The output values are then passed through an activation function.
 
 The filters are designed to detect specific features in the image, such as edges corners and textures. The filters are learned during training by adjusting  the weights and biases of the connections between the neurons, to minimize the error.
