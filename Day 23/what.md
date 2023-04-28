@@ -1,0 +1,1 @@
+Tried again the titanic challenge on Kaggle, but this time using RNNs
